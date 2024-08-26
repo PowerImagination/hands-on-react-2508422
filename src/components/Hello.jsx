@@ -1,3 +1,3 @@
 export default (props) => {
-      return <h1>Meet the {props.name}</h1>
+      return <h1>Meet the <i>{props.name}</i></h1>
 }
