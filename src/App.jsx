@@ -8,7 +8,7 @@ class Welcome extends React.Component {
   }
 } 
 const Hello = (props) => {
-      return <h1>Meet the {this.props.name}</h1>
+      return <h1>Meet the {props.name}</h1>
 }
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
         <hgroup>
           <img src="images/group.svg" alt="StarGazers Group" />
           <Welcome name = "Stars"/>
-          <Welcome name = "StarGazers"/>
           <Hello name = "Star Aliens"/>
           <p>Members of an <b>intergalactic alliance</b><br />
             paving the way for peace and benevolence among all species. They are known for their enthusiasm for science, for their love of fun, and their dedication to education.</p>
