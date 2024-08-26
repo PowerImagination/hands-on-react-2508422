@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Hello from "./components/Welcome";
+import Hello from "./components/Hello"
 
 function App() {
   const name = 'StarGazers'
