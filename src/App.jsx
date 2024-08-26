@@ -1,15 +1,5 @@
 import React, {Component} from "react";
-class Welcome extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render(){
-    return <h1>Meet the {this.props.name}</h1>;
-  }
-} 
-const Hello = (props) => {
-      return <h1>Meet the {props.name}</h1>
-}
+import Hello from "./components/Welcome";
 
 function App() {
   const name = 'StarGazers'
@@ -18,7 +8,6 @@ function App() {
       <article>
         <hgroup>
           <img src="images/group.svg" alt="StarGazers Group" />
-          <Welcome name = "Stars"/>
           <Hello name = "Star Aliens"/>
           <p>Members of an <b>intergalactic alliance</b><br />
             paving the way for peace and benevolence among all species. They are known for their enthusiasm for science, for their love of fun, and their dedication to education.</p>
