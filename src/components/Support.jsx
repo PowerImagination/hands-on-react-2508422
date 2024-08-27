@@ -3,7 +3,7 @@ const pageTitle = document.title;
 export default () => {
   const [count, setCount] = useState(0)
   useEffec(() => {
-   count && (document.title = `${pageTitle} -- ${count}`)
+   count && (document.title = `${pageTitle} - ${count}`)
   })
   return (
     <button className="outline" onClick={() => setCount(count + 1)}>
